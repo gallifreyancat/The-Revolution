@@ -1,7 +1,7 @@
 
 def intro():
-    print("insert introductory story later")
-    print('''
+    print('''The American Revolution has started. Many are enlisting on either side, whether for the glory, for their families, for honor, or for other reasons. Now you must decide what you are fighting for 
+
     Choose your side
     1 - Join Revolution
     2 - Stay Loyal''')
@@ -10,7 +10,7 @@ def intro():
     while g not in ["1", "2"]:
         g = input("")
         if g == "1":
-            print("You join the Revolution.")
+            #print("You join the Revolution.")
             q = "Join_Revolution"
         if g == "2":
             print("You stay loyal.")
@@ -19,26 +19,26 @@ def intro():
 
 
 def Join_Revolution():
-    print("insert Join Revolution story later")
-    print('''
+    print('''You have decided to enlist in the Patriots side. General Washington has taken a liking to you. Do you become his Right Hand Man or do you stay a soldier?
+    
     Choose your role.
     1 - Become soldier
     2 - Become Right Hand Man''')
     g = ""
-    q = ""
+    w = ""
     while g not in ["1", "2"]:
         g = input("")
         if g == "1":
             print("You become a soldier.")
-            q = "Soldier"
+            w = "Soldier"
         if g == "2":
             print("You become Washington's Right Hand Man.")
-            q = "Hand"
-    return q
+            w = "Hand"
+    return w
 
 def Stay_Loyal():
-    print("insert stay loyal story later")
-    print('''
+    print('''You have decided to stay loyal to Britain as a soldier. Some of the men are eager to join the battle and some of them look worried.
+
 Choose your role.
 1 - Become soldier
 2 - Become soldier
@@ -59,8 +59,8 @@ Choose your role.
     return q
 
 def Soldier():
-    print("insert soldier story later")
-    print('''
+    print('''You have arrived at your first battle. In the middle of the battle you begin to reconsider your choices. Do you remain on your side? Do you switch sides? Do you dare abandon the battle altogether?
+
     Choose your role.
     1 - Join battle as a Patriot
     2 - Join battle as a Loyalist''')
