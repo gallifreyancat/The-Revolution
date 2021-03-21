@@ -41,7 +41,7 @@ if g == "1":
         g = input()
 elif g == "2":
     g = ""
-    print ('''You have convinced General Washington to allow you into battle. In the middle of the battle you begin to reconsider your choices. Do you remain on your side? Do you switch sides and lose all trust and positions you have now? Do you dare abandon the battle altogether?
+    print ('''You have convinced General Washington to allow you into battle. In the middle of the battle you begin to reconsider your choices. Do you remain on your side? Do you switch sides and lose all trust and positions you have now?
 
     1 - Go to the loyalists side
     2 - Remain on the Patriot side
@@ -62,7 +62,7 @@ print ('''You have arrived at your next battle. In the middle of the battle you 
 
 1 - Patriots
 2 - Loyalists
-3 - Flee the bttle
+3 - Flee the battle
 ''')
 g = ""
 while g not in ["1", "2", "3"]:
@@ -70,14 +70,14 @@ while g not in ["1", "2", "3"]:
 
 f = ""
 if g == "1":
-    print (''' Revolution
+    print ('''You have arrived at your next battle. In the middle of the battle you begin to reconsider your choices. Do you remain on your side? Do you switch sides?
     1 - Loyalists
     2 - Patriots
     ''')
     while f not in ["1", "2"]:
         f = input()
 elif g == "2":
-    print (''' Loyal
+    print ('''You have arrived at your next battle. In the middle of the battle you begin to reconsider your choices. Do you remain on your side? Do you switch sides?
     1 - Loyalists
     2 - Patriots
     ''')
